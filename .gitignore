@@ -1,0 +1,8 @@
+# Security
+*.pem
+*.key
+
+# Directories
+static/music/
+static/r_music/
+__pycache__/
