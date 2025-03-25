@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='style.css') }}?3" rel="stylesheet" type="text/css">
+        <title>A Flunky Homapage</title>
+        <meta content="My Page :)" property="og:title" />
+        <meta content="Cool website for cool people only. (DO NOT LOAD PAGE IF NOT COOL!!!)" property="og:description" />
+        <meta content="https://spatialflunky.one" property="og:url" />
+        <meta content="{{ url_for('static', filename='Assets/logo.png') }}" property="og:image" />
+        <meta content="#00CCFB" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" href="{{ url_for('static', filename='Assets/favicon.png') }}">
+    </head>
+    <body>
+        <div id="title"><h1><a href="/"><img class="logo" alt="Spatialflunky1 logo" src="{{ url_for('static', filename='Assets/logo.png') }}"></a><em class="titleText">patialflunky1</em></h1></div>
+        <div id="container">
+            <div id="topnav">
+                <h1><em>Homepage</em></h1>
+            </div>
+        </div> 
+        <div id="sidebar">
+            <br>
+            <table id="sidebar_table">
+                <tr><td><a href="/Downloads">Downloads</a></td></tr>
+           <!-- <tr><td><a href="/Music">Music</a></td></tr> -->
+           <!-- <tr><td><a href="/Music?robot=ryan">Ryan's Music</a></td></tr> -->
+                <tr><td><a href="https://www.youtube.com/c/spatialflunky1">YouTube</a></td></tr>
+            </table>
+        </div>
+	</body>
+</html>

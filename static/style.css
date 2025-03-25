@@ -1,0 +1,87 @@
+p {
+    color:cyan;
+}
+
+a {
+    color: rgb(0, 151, 255);
+}
+
+h3 {
+    color: #00adff;
+}
+
+h1 {
+    color:cyan;
+}
+
+body {
+    background: url("/static/Assets/background.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+#error {
+    background: rgb(24,24,24);
+}
+
+#topnav {
+    margin: auto;
+    border-radius: 30px;
+    width: max-content;
+    background-color: #333;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+
+#container {
+    width: fit-content;
+    margin: auto;
+}
+
+.logo {
+    width: 75px;
+    transform: translateY(-20px);
+}
+
+
+.titleText {
+    position: relative;
+    top: -40px;
+    font-size: 35px;
+}
+
+#title {
+    width: max-content;
+    padding-right: 15px;
+    background-color: rgb(173, 173, 184, 0.7);
+    border-radius: 40px;
+    height: 75px;
+    float: left;
+}
+
+#sidebar {
+    width: max-content;
+    height: 75%;
+    background-color: rgba(199, 199, 209, 0.8);
+    border-radius: 75px;
+    padding: 10px;
+    border: 12px solid black;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    position: absolute;
+}
+
+#sidebar_table {
+    height: 145pt;
+    font-size: 20px;
+}
+

@@ -1,0 +1,165 @@
+body {
+    background: rgb(24,24,24);
+}
+
+#content {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+td {
+    width: 300px;
+}
+
+#cover {
+    width: 250px;
+}
+
+img, button {
+    border-radius: 25px;
+}
+
+#artist_button, #album_button {
+    padding: 10px;
+    background-color: rgb(104, 104, 110);
+}
+
+#song_button {
+    text-align: left;
+    width: 180%;
+    background-color: rgb(104, 104, 110);
+}
+
+#song_button:hover, #artist_button:hover, #album_button:hover {
+    background-color: rgb(140, 140, 150);
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#songBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: calc(100% - 6px);;
+    height: 100px;
+    border-style: solid;
+    border-color: white;
+}
+
+#playButton {
+    position: absolute;
+    top: 50%;
+    margin-top: -42px;
+    margin-left: 10px;
+    height: 83px;
+    width: 83px;
+}
+
+#songList {
+    float: left;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin-top: 42px;
+    width: 100%;
+    font-size: larger;
+    border-collapse: collapse;
+    border-width: 4px;
+}
+
+th {
+    text-align: left;
+    border-right: 3px solid white;
+    border-bottom: 5px solid white;
+}
+
+.song:hover {
+    background-color: rgb(50,50,50);
+}
+
+.song {
+    font-size: x-large;
+    height: 45px;
+    user-select: none;
+}
+
+#songTitle {
+    position: absolute;
+    margin-left: 110px;
+    top: -12px;
+}
+
+#songPosition {
+    position: absolute;
+    left: 110px;
+    top: 12px;
+}
+
+#songLength {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+#cell {
+    border-bottom: 3px solid rgb(35,35,35);
+}
+
+#positionBar {
+    margin-top: 75px;
+    width: calc(100% - 140px);
+    margin-left: 115px;
+}
+
+#positionBar2 {
+    background-color: white;
+    height: 4px;
+}
+
+#positionBar2:hover {
+    background-color: cyan;
+}
+
+#indicator {
+    position: absolute;
+    top: 66px;
+}
+
+#volume {
+    position: absolute;
+    top: 38px;
+    right: 60px;
+    visibility: hidden;
+
+    appearance: none;
+    height: 6px;
+
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 7px;
+    height: 24px;
+    background: url(/static/Assets/indicator_unpressed.png);
+}
+
+#volume::-moz-range-thumb {
+    width: 7px;
+    height: 24px;
+    background: url(/static/Assets/indicator_unpressed.png);
+}
+
+#slidecontainer, #volume {
+    width: 200px;
+}
